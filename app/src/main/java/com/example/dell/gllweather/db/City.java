@@ -2,11 +2,13 @@ package com.example.dell.gllweather.db;
 
 //extends DataSupport
 
+import org.litepal.crud.LitePalSupport;
+
 /**
  * Created by dell on 2020/6/1.
  */
 
-public class City {
+public class City extends LitePalSupport {
     private int id;
     private String cityName;
     private int cityCode;

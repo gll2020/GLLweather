@@ -1,13 +1,14 @@
 package com.example.dell.gllweather.db;
 
 //extends DataSupport
-
+import org.litepal.crud.LitePalSupport;
 
 /**
  * Created by dell on 2020/6/1.
  */
 
-public class Province{
+
+public class Province extends LitePalSupport{
     private int id;
     private String provinceName;
     private int provinceCode;
