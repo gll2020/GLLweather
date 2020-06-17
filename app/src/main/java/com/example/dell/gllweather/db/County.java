@@ -2,13 +2,14 @@ package com.example.dell.gllweather.db;
 
 //extends DataSupport
 
-import org.litepal.crud.LitePalSupport;
+import org.litepal.LitePal;
+
 
 /**
  * Created by dell on 2020/6/1.
  */
 
-public class County extends LitePalSupport{
+public class County extends LitePal{
     private int id;
     private String countyName;
     private String weatherId;
