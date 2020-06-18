@@ -77,7 +77,7 @@ public class WeatherActivity extends AppCompatActivity {
         if (weatherString != null) {
             //有缓存时直接解析天气
             Weather weather = Utility.handleWeatherResponse(weatherString);
-            weatherId = weather.basic.weatherld;
+            weatherId = weather.basic.weatherId;
             showWeatherInfo(weather);
         } else {
             //无缓存时去服务器查询

@@ -76,7 +76,7 @@ public class AutoUpdateService extends Service {
 
     /** 每日更新一图
      */
-    / private void updateBingPic( ) {
+     private void updateBingPic( ) {
         String requestBingPic = "http://guolin.tech/api/bing_pic";
         HttpUtil.sendOkHttpRequest ( requestBingPic, new Callback( ) {
             @Override
